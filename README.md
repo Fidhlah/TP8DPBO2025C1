@@ -46,6 +46,26 @@ Mencatat peminjaman buku oleh mahasiswa. Relasi:
 ---
 
 # Alur Penjelasan
+1. **index.php**  
+   - Merupakan **halaman utama aplikasi**.  
+   - Menampilkan daftar data mahasiswa dari tabel `students` secara langsung.  
+   - Berfungsi sebagai landing page dan mengarahkan pengguna ke fitur lain (buku & peminjaman).
+
+2. **Controller** (`controllers/`)  
+   - Menangani logika aplikasi untuk `students`, `books`, dan `borrows`.
+   - Menerima input dari pengguna, memanggil model yang sesuai, dan meneruskan data ke view.
+
+3. **Model** (`models/`)  
+   - Mengelola interaksi langsung dengan database.
+   - Berisi query untuk menambahkan, mengubah, menghapus, dan membaca data.
+
+4. **View** (`views/`)  
+   - Bertanggung jawab menampilkan data ke pengguna.
+   - Menggunakan template HTML yang disesuaikan dengan data yang diterima dari controller.
+
+5. **Template** (`templates/`)  
+   - HTML murni sebagai kerangka tampilan.
+   - Dipakai oleh view untuk membungkus data dengan antarmuka pengguna.
 
 # Dokumentasi 
 https://github.com/user-attachments/assets/4549facd-4183-46c5-9076-ae416646d202
