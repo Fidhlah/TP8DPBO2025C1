@@ -47,12 +47,12 @@ Mencatat peminjaman buku oleh mahasiswa. Relasi:
 
 # Alur Penjelasan
 1. **index.php**  
-   - Merupakan **halaman utama aplikasi**.  
+   - Merupakan **halaman utama website**.  
    - Menampilkan daftar data mahasiswa dari tabel `students` secara langsung.  
    - Berfungsi sebagai landing page dan mengarahkan pengguna ke fitur lain (buku & peminjaman).
 
 2. **Controller** (`controllers/`)  
-   - Menangani logika aplikasi untuk `students`, `books`, dan `borrows`.
+   - Menangani logika website untuk `students`, `books`, dan `borrows`.
    - Menerima input dari pengguna, memanggil model yang sesuai, dan meneruskan data ke view.
 
 3. **Model** (`models/`)  
